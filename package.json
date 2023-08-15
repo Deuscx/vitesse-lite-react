@@ -1,0 +1,42 @@
+{
+  "name": "vitesse-lite-react",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-use": "^17.4.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.5",
+    "@iconify-json/carbon": "^1.1.19",
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@unocss/reset": "^0.55.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "lint-staged": "^13.2.2",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.0.2",
+    "unocss": "^0.55.0",
+    "unplugin-auto-import": "^0.16.4",
+    "vite": "^4.4.5",
+    "vite-plugin-pages": "^0.31.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
