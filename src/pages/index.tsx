@@ -9,7 +9,7 @@ export default function Index() {
 
   return (
       <div>
-        <div className="i-carbon-campsite text-4xl inline-block" />
+        <div className="i-carbon-campsite inline-block text-4xl" />
         <p>
           <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
           Vitesse Lite
@@ -26,7 +26,7 @@ export default function Index() {
           id="input"
           placeholder="What's your name?"
           type="text"
-          className="px-4 py-2 w-250px text-center bg-transparent outline-none outline-active:none border border-rounded border-gray-200 border-dark:gray-700"
+          className="outline-active:none w-250px border border-dark:gray-700 border-gray-200 border-rounded bg-transparent px-4 py-2 text-center outline-none"
           onKeyDown={({ key }) => key === 'Enter' && go()}
         />
 

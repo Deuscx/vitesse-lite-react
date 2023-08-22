@@ -4,7 +4,7 @@ export default function Hi() {
 
   return (
       <div>
-        <div className="i-carbon-pedestrian text-4xl inline-block" />
+        <div className="i-carbon-pedestrian inline-block text-4xl" />
         <p>
         Hi, { params.name }
         </p>
@@ -14,7 +14,7 @@ export default function Hi() {
 
         <div>
           <button
-            className="btn m-3 text-sm mt-8"
+            className="m-3 mt-8 text-sm btn"
             onClick={() => navigate(-1)}
           >
           Back
