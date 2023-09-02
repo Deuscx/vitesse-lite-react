@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.5",
+    "@egoist/tailwindcss-icons": "^1.1.0",
     "@iconify-json/carbon": "^1.1.19",
     "@types/node": "^20.5.0",
     "@types/react": "^18.2.15",

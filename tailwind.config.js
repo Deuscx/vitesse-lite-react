@@ -1,3 +1,4 @@
+const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
@@ -72,5 +73,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'),
+    iconsPlugin({
+    // Select the icon collections you want to use
+      collections: getIconCollections(['carbon']),
+    })],
 }
