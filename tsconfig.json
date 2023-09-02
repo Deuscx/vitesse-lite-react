@@ -27,7 +27,7 @@
       "vite-plugin-pages/client-react"
     ],
     "paths": {
-      "~/*": [
+      "@/*": [
         "src/*"
       ]
     }

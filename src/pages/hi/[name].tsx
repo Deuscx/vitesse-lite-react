@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button'
+
 export default function Hi() {
   const navigate = useNavigate()
   const params = useParams()
@@ -13,12 +15,12 @@ export default function Hi() {
         </p>
 
         <div>
-          <button
+          <Button
             className="m-3 mt-8 text-sm btn"
             onClick={() => navigate(-1)}
           >
           Back
-          </button>
+          </Button>
         </div>
       </div>
   )

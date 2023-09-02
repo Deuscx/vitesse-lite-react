@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button'
+
 export default function Index() {
   const name = useRef<HTMLInputElement>(null)
 
@@ -31,13 +33,13 @@ export default function Index() {
         />
 
         <div>
-          <button
-            className="m-3 text-sm btn"
+          <Button
+            className="m-3 text-sm"
             disabled={!name}
             onClick={() => go() }
           >
           Go
-          </button>
+          </Button>
         </div>
       </div>
   )

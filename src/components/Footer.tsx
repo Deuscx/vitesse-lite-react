@@ -1,4 +1,4 @@
-import { useDark } from '~/hooks'
+import { useDark } from '@/hooks'
 
 export default function Footer() {
   const { isDark, toggleDark } = useDark()
