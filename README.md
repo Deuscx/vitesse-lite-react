@@ -17,7 +17,7 @@ a simple starter template for react with vite
 pnpm install
 ```
 
-2. Run 
+2. Run
 
 ```
 pnpm run dev

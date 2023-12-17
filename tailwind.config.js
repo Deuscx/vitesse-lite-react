@@ -73,9 +73,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate'),
-    iconsPlugin({
+  plugins: [require('tailwindcss-animate'), iconsPlugin({
     // Select the icon collections you want to use
-      collections: getIconCollections(['carbon']),
-    })],
+    collections: getIconCollections(['carbon']),
+  })],
 }

@@ -1,36 +1,36 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "useDefineForClassFields": true,
+    "jsx": "react-jsx",
     "lib": [
       "DOM",
       "DOM.Iterable",
       "ESNext"
     ],
-    "module": "ESNext",
-    "skipLibCheck": true,
+    "useDefineForClassFields": true,
     "baseUrl": ".",
+    "module": "ESNext",
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "types": [
-      "vite/client",
-      "vite-plugin-pages/client-react"
-    ],
     "paths": {
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client-react"
+    ],
+    "allowImportingTsExtensions": true,
+    /* Linting */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "dist",

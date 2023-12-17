@@ -1,7 +1,7 @@
 export default function Index() {
   return (
-        <div>
-            Not Found
-        </div>
+    <div>
+      Not Found
+    </div>
   )
 }
